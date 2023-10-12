@@ -1,7 +1,9 @@
+import OneMovieSlider from "./components/OneMovieSlider"
+import { FaArrowAltCircleLeft, FaArrowAltCircleRight } from "react-icons/fa";
 
 const App=()=>{
   return <div>
-    <h1>test</h1>
+    <OneMovieSlider />
   </div>
 }
 export default App
