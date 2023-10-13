@@ -7,7 +7,7 @@ const OneMovieSlider=()=>{
     const [index,setindex]=useState(0)
 
     return <section className="all-movies">
-        <div className="ass-movies-content">
+        <div className="all-movies-content">
             {data.map((onemovie)=>{
                 const {id,image,title,age,tags,description}=onemovie
                 return <article key={id}>

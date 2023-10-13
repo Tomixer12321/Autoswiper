@@ -1,0 +1,36 @@
+.all-movies-content {
+    display: flex;
+    flex-direction: row;
+    border: 2px solid red;
+    width: 500px;
+    /* overflow: hidden; */
+    height: 400px;
+    text-align: center;
+    position: relative;
+}
+
+
+.all-movies-content article {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* opacity: 0; */
+}
+
+
+article.active-slide {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+
+article.last-slide {
+    transform: translateX(-100%);
+}
+
+
+article.next-slide {
+    transform: translateX(100%)
+}
