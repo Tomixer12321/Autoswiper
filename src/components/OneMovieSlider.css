@@ -1,7 +1,23 @@
+.all-movies {
+    text-align: center;
+    color: #e5e5e5;
+    box-shadow: 0px 0px 15px #e50914;
+    padding: 20px;
+}
+
+
+.all-movies button {
+    background-color: transparent;
+    border: none;
+    font-size: 35px;
+    color: #e50914;
+    cursor: pointer;
+}
+
 .all-movies-content {
     display: flex;
     flex-direction: row;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     width: 500px;
     overflow: hidden;
     height: 400px;
@@ -18,6 +34,10 @@
     height: 100%;
     opacity: 0;
     transition: all 0.2s linear;
+}
+.all-movies-content img {
+    width: 80%;
+    height: 225px;
 }
 
 
